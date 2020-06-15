@@ -14,7 +14,14 @@ namespace FourPrinciplesofOOPS
             User user = new User(Name:"Chirag");
             user.sayHello();
             Console.ReadLine();
-           
+            ItaxCalculator calculator = GetCalculator();
+            calculator.Calculatetax();
+
+        }
+
+        public static ItaxCalculator GetCalculator()
+        {
+            return new TaxCalculator2019();
         }
     }
 }

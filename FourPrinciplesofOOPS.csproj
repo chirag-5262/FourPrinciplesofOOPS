@@ -43,8 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ItaxCalculator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TaxCalculator2019.cs" />
+    <Compile Include="TaxCalculator2020.cs" />
     <Compile Include="User.cs" />
   </ItemGroup>
   <ItemGroup>
