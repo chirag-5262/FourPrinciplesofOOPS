@@ -17,6 +17,12 @@ namespace FourPrinciplesofOOPS
             ItaxCalculator calculator = GetCalculator();
             calculator.Calculatetax();
 
+            var account = new Account();
+
+            account.Deposit(10);
+            account.Withdraw(5);
+            account.getBalance();
+
         }
 
         public static ItaxCalculator GetCalculator()
