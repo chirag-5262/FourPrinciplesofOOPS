@@ -10,7 +10,11 @@ namespace FourPrinciplesofOOPS
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("FourMainPrinciplesOfOOPS");
+            
+            User user = new User(Name:"Chirag");
+            user.sayHello();
+            Console.ReadLine();
+           
         }
     }
 }
