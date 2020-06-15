@@ -23,6 +23,9 @@ namespace FourPrinciplesofOOPS
             account.Withdraw(5);
             account.getBalance();
 
+            MailService mailService = new MailService();
+            mailService.sendEmail();
+
         }
 
         public static ItaxCalculator GetCalculator()
